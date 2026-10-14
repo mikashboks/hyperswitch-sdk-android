@@ -1,0 +1,20 @@
+{
+  "repository": "mikashboks/hyperswitch-sdk-android",
+  "node_version": null,
+  "java_version": 21,
+  "tool_environment": {},
+  "node_units": [],
+  "required_tools": [
+    "java"
+  ],
+  "prepare_commands": [],
+  "install_commands": [],
+  "check_commands": [],
+  "install_blockers": [
+    "Provision the matching Client Core dependency archive and local Gradle init/settings adapter before building this standalone submodule."
+  ],
+  "notes": [
+    "The verified Client Core pairing is 0b69d0b8083960f3320b3230ba45c386e83c5682; SDK commit 5a1fe6e1ea67e7aebafea1eff0ec83aacc7ba3d0. Use JDK 21, SDK/build-tools 35, NDK 27.1.12297006 and Gradle 8.13. The laptop parent cache is not available in the hosted checkout."
+  ],
+  "hosted_runtime_validation": "pending"
+}
